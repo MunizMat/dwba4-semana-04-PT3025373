@@ -1,0 +1,23 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 40px;
+}
+
+img {
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.container-icones {
+  display: flex;
+  gap: 4px;
+
+  & > img {
+    width: 32px;
+    height: 32px;
+  }
+}
